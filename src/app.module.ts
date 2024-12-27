@@ -7,7 +7,7 @@ import { DatabaseNamingStrategy } from 'src/db/database-naming.strategy'
 
 import { MainModule } from 'src/modules/main/main.module'
 
-dotenv.config()
+dotenv.config({ path: '.env.workspace' })
 
 @Module({
   imports: [
